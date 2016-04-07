@@ -100,6 +100,20 @@ nav{
         background-color: #607D8B;
         float:left;
     }
+    #projects{
+        padding: 2.5%;
+        width: 45%;
+        height:41%;
+        background-color: #607D8B;
+        float:left;
+    }
+    #photos{
+        padding: 2.5%;
+        width: 45%;
+        height:41%;
+        background-color: #607D8B;
+        float:left;
+    }
 
     /*
         background images 
