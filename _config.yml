@@ -1,0 +1,21 @@
+# Site settings
+title: My little Homepage/Blog
+email: info@danielknoell.de
+description: > # this means to ignore newlines until "baseurl:"
+  This is my little homepage with tech blog.
+github_username:  danny4927
+highlighter: rouge
+github: [Repository metadata]
+isso:
+  data_isso: https://comments.danielknoell.de/
+  script_src: https://comments.danielknoell.de/js/embed.min.js
+
+# Build settings
+exclude: [vendor]
+markdown: kramdown
+permalink: pretty
+encoding: utf-8
+permalink: /:categories/:year/:month/:day/:title.html
+
+gems:
+  - jekyll-sitemap
