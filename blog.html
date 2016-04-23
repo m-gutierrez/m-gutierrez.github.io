@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: blog
 title: Blog
 ---
  
 
 
 <ul class="entries">
-  {% for post in site.posts %}
+  {% for post in site.tags.blog %}
   <li STYLE="margin:10px">
     <a href="{{ post.url }}">
 	    <img src="{{ post.image }}" width="100" height="75" style="vertical-align: middle;"/>

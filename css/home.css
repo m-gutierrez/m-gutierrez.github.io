@@ -93,7 +93,8 @@ nav{
         background-color: #607D8B;
         float:left;
     }
-    #sandbox{
+
+    #Thesis{
         padding: 2.5%;
         width: 45%;
         height:41%;
@@ -118,10 +119,11 @@ nav{
     /*
         background images 
     */
-    #imagesandbox{
+
+    #imagethesis{
         width: 100%;
         height:100%;
-        background: #03A9F4 url('/images/Sandbox.png') center no-repeat;
+        background: #03A9F4 url('/images/Thesis.png') center no-repeat;
         background-size: auto 95%;
         float:left;
     }
@@ -135,14 +137,14 @@ nav{
     #imageprojects{
         width: 100%;
         height:100%;
-        background: #03A9F4 url('/images/uCavityMIT.png') center no-repeat;
+        background: #03A9F4 url('/images/Sandbox.png') center no-repeat;
         background-size: auto 95%;
         float:left;
     }
     #imagephotos{
         width: 100%;
         height:100%;
-        background: #03A9F4 url('/images/uCavityMIT.png') center no-repeat;
+        background: #03A9F4 url('/images/Photos.JPG') center no-repeat;
         background-size: auto 95%;
         float:left;
     }
