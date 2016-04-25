@@ -7,7 +7,7 @@ tags: blog
 use_math: true
 ---
 
-{% assign image_link ="images/2016-04-23/" %}
+{% assign image_link ="/images/2016-04-23/" %}
 
 
 There are 2 primary noise sources we deal with when using an optical qubit, fluctuations in the frequency of the addressing laser and level shifts due to external magnetic field fluctuations. Our experiments rely on constant level shift produced by a DC magnetic field we apply with a pair of helmholtz coils around our chamber, along with smaller cancellation coils which serve to cancel the earths magnetic field. These coils are wound such that we produce about 0.1-5Gauss / Amp at the ion position. Our optical transition has a linear zeeman shift of ~0.5-3MHz / Gauss. 
@@ -28,8 +28,3 @@ $$
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
   \end{align}
 $$
-
-  \begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align}
