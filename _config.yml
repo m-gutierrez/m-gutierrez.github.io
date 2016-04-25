@@ -2,4 +2,4 @@
 title: MG
 
 highlighter: Rouge
-markdown: maruku
+markdown: Kramdown
