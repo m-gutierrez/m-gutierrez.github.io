@@ -4,9 +4,14 @@
   <!-- meta data -->
   <head>
     <title>MG</title>
-    <link href="images/site-icon.png" rel="icon" type="/image/x-icon">
+    <link href="/images/site-icon.png" rel="icon" type="/image/x-icon">
     <link href="/css/page.css" rel="stylesheet"> 
+    <link href="/css/syntax.css" rel="stylesheet">
+
     <meta name="viewport" content="initial-scale=1">
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
   </head>
 
   <!-- page content -->

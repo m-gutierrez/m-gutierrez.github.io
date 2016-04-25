@@ -1,4 +1,5 @@
 # Site settings
 title: MG
 
-highlighter: Pygments
+highlighter: Rouge
+markdown: maruku

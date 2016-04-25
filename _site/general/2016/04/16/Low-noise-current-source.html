@@ -4,9 +4,12 @@
   <!-- meta data -->
   <head>
     <title>MG</title>
-    <link href="images/site-icon.png" rel="icon" type="/image/x-icon">
+    <link href="/images/site-icon.png" rel="icon" type="/image/x-icon">
     <link href="/css/page.css" rel="stylesheet"> 
+    <link href="/css/syntax.css" rel="stylesheet">
+
     <meta name="viewport" content="initial-scale=1">
+    
   </head>
 
   <!-- page content -->
@@ -32,8 +35,18 @@
 
     <div id="main">
       <div id="post-title">Low noise current source</div>
-<p>There are 2 primary noise sources we deal with when using an optical qubit, fluctuations in the frequency of the addressing laser and level shifts due to external magnetic field fluctuations. Some of this noise is due to line current changing around the lab. Just checking
-</p>
+
+<p>There are 2 primary noise sources we deal with when using an optical qubit, fluctuations in the frequency of the addressing laser and level shifts due to external magnetic field fluctuations. Our experiments rely on constant level shift produced by a DC magnetic field we apply with a pair of helmholtz coils around our chamber, along with smaller cancellation coils which serve to cancel the earths magnetic field. These coils are wound such that we produce about 0.1-5Gauss / Amp at the ion position. Our optical transition has a linear zeeman shift of ~0.5-3MHz / Gauss.</p>
+
+<p>[insert figure ]</p>
+
+<p>To easily resolve these zeeman levels we apply a field of ~5-6Gauss to (about 10x the earths magnetic field). Requiring about 1A of current through our Helmholtz pair. Now that these levels are frequency resolved, we’d like to address a particular transition, This requires that the frequency fluctuations of each level be ~O(linewidth = 3Hz). So our current source needs to produce ~1Amp of current with &lt;10uA of fluctuation. Operation at the 1-10ppm stability level is difficult. Most experiments in our lab so far have used standard linear power supplies to source the current and then actively track the drifts in the current through measurements of the zeeman level shifts. This procedures works well on short time scales but does not have the bandwidth to cancel any fast time scale fluctuations on the current output, particularly the feedthrough of 60Hz through the power supplies transformer. These fast time scale fluctuations result in increased decoherence when addressing these transitions.</p>
+
+<p>Here I’ll describe the layout and structure of a low noise bi-directional current source for such applications.</p>
+
+<p><a href="/images/2016-04-23/QuCCBRD.png">
+<img src="/images/2016-04-23/QUCCBRD.png" width="400px" />
+</a></p>
 
 
     </div>
