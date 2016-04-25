@@ -9,7 +9,18 @@
     <link href="/css/syntax.css" rel="stylesheet">
 
     <meta name="viewport" content="initial-scale=1">
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      }
+    });
+  </script>
+  <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 
   </head>
 
@@ -41,7 +52,7 @@
 
 <p>[insert figure ]</p>
 
-<p>To easily resolve these zeeman levels we apply a field of ~5-6Gauss to (about 10x the earths magnetic field). Requiring about 1A of current through our Helmholtz pair. Now that these levels are frequency resolved, we’d like to address a particular transition, This requires that the frequency fluctuations of each level be ~O(linewidth = 3Hz). So our current source needs to produce ~1Amp of current with &lt;10uA of fluctuation. Operation at the 1-10ppm stability level is difficult. Most experiments in our lab so far have used standard linear power supplies to source the current and then actively track the drifts in the current through measurements of the zeeman level shifts. This procedures works well on short time scales but does not have the bandwidth to cancel any fast time scale fluctuations on the current output, particularly the feedthrough of 60Hz through the power supplies transformer. These fast time scale fluctuations result in increased decoherence when addressing these transitions.</p>
+<p>To easily resolve these zeeman levels we apply a field of ~5-6Gauss (about 10x the earths magnetic field). Requiring about 1A of current through our Helmholtz pair. Now that these levels are frequency resolved, we’d like to address a particular transition, This requires that the frequency fluctuations of each level be ~O(linewidth = 3Hz). So our current source needs to produce ~1Amp of current with &lt;10<script type="math/tex">\mu A</script> of fluctuation. Operation at the 1-10ppm stability level is difficult. Most experiments in our lab so far have used standard linear power supplies to source the current and then actively track the drifts in the current through measurements of the zeeman level shifts. This procedures works well on short time scales but does not have the bandwidth to cancel any fast time scale fluctuations on the current output, particularly the feedthrough of 60Hz through the power supplies transformer. These fast time scale fluctuations result in increased decoherence when addressing these transitions.</p>
 
 <p>Here I’ll describe the layout and structure of a low noise bi-directional current source for such applications.</p>
 
@@ -49,11 +60,30 @@
 <img src="/images/2016-04-23/QuCCBRD.png" width="400px" />
 </a></p>
 
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
-    |\psi_2\rangle &= c|0\rangle + d|1\rangle
-  \end{align} %]]></script>
+<p>\begin{align}
+    |\psi_1\rangle &amp;= a|0\rangle + b|1\rangle \\
+    |\psi_2\rangle &amp;= c|0\rangle + d|1\rangle
+  \end{align}</p>
+
+<p>The circuit consists of 6 blocks.</p>
+
+<pre><code>*Power filtering
+*Current regulation
+..*test
+*Digital current set
+*reference voltage
+*Digital logic buffers
+*Temperature stabilization
+</code></pre>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end</code></pre></figure>
+
 
 
     </div>

@@ -4,7 +4,6 @@ title: Low noise current source
 image: /images/2016-04-21/BfieldCoils.JPG
 category: general
 tags: blog
-use_math: true
 ---
 
 {% assign image_link ="/images/2016-04-23/" %}
@@ -14,7 +13,7 @@ There are 2 primary noise sources we deal with when using an optical qubit, fluc
 
 [insert figure ]
 
-To easily resolve these zeeman levels we apply a field of ~5-6Gauss to (about 10x the earths magnetic field). Requiring about 1A of current through our Helmholtz pair. Now that these levels are frequency resolved, we'd like to address a particular transition, This requires that the frequency fluctuations of each level be ~O(linewidth = 3Hz). So our current source needs to produce ~1Amp of current with <10uA of fluctuation. Operation at the 1-10ppm stability level is difficult. Most experiments in our lab so far have used standard linear power supplies to source the current and then actively track the drifts in the current through measurements of the zeeman level shifts. This procedures works well on short time scales but does not have the bandwidth to cancel any fast time scale fluctuations on the current output, particularly the feedthrough of 60Hz through the power supplies transformer. These fast time scale fluctuations result in increased decoherence when addressing these transitions. 
+To easily resolve these zeeman levels we apply a field of ~5-6Gauss (about 10x the earths magnetic field). Requiring about 1A of current through our Helmholtz pair. Now that these levels are frequency resolved, we'd like to address a particular transition, This requires that the frequency fluctuations of each level be ~O(linewidth = 3Hz). So our current source needs to produce ~1Amp of current with <10$$\mu A$$ of fluctuation. Operation at the 1-10ppm stability level is difficult. Most experiments in our lab so far have used standard linear power supplies to source the current and then actively track the drifts in the current through measurements of the zeeman level shifts. This procedures works well on short time scales but does not have the bandwidth to cancel any fast time scale fluctuations on the current output, particularly the feedthrough of 60Hz through the power supplies transformer. These fast time scale fluctuations result in increased decoherence when addressing these transitions. 
 
 Here I'll describe the layout and structure of a low noise bi-directional current source for such applications. 
 
@@ -22,9 +21,33 @@ Here I'll describe the layout and structure of a low noise bi-directional curren
 <img src="{{image_link}}QuCCBRD.png" width="400px"/>
 </a>
 
-$$
+
   \begin{align}
-    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\\
+    |\psi_1\rangle &= a|0\rangle + b|1\rangle \\\
     |\psi_2\rangle &= c|0\rangle + d|1\rangle
   \end{align}
-$$
+
+
+The circuit consists of 6 blocks. 
+
+
+
+	*Power filtering
+	*Current regulation
+	..*test
+	*Digital current set
+	*reference voltage
+	*Digital logic buffers
+	*Temperature stabilization
+
+
+
+{% highlight ruby linenos %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
