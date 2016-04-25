@@ -19,7 +19,7 @@ To easily resolve these zeeman levels we apply a field of ~5-6Gauss to (about 10
 Here I'll describe the layout and structure of a low noise bi-directional current source for such applications. 
 
 <a href="{{image_link}}QuCCBRD.png">
-<img src="{{image_link}}QUCCBRD.png" width="400px"/>
+<img src="{{image_link}}QuCCBRD.png" width="400px"/>
 </a>
 
 $$
