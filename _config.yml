@@ -1,5 +1,6 @@
 # Site settings
 title: MG
 
-highlighter: Rouge
+highlighter: rouge
 markdown: Kramdown
+exclude:          ['*.ipynb']
