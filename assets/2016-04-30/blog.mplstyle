@@ -2,18 +2,18 @@
 
 patch.linewidth: 0.5
 patch.facecolor: 348ABD  # blue
-patch.edgecolor: EEEEEE
+patch.edgecolor: 607D8B
 patch.antialiased: True
 
 font.size: 10.0
 
-axes.facecolor: E5E5E5
+axes.facecolor: 607D8B
 axes.edgecolor: white
-axes.linewidth: 1
+axes.linewidth: 0.5
 axes.grid: True
 axes.titlesize: x-large
 axes.labelsize: large
-axes.labelcolor: 555555
+axes.labelcolor: black
 axes.axisbelow: True       # grid/ticks are below elements (eg lines, text)
 
 axes.color_cycle: E24A33, 348ABD, 988ED5, 777777, FBC15E, 8EBA42, FFB5B8
@@ -25,15 +25,21 @@ axes.color_cycle: E24A33, 348ABD, 988ED5, 777777, FBC15E, 8EBA42, FFB5B8
                    # 8EBA42 : green
                    # FFB5B8 : pink
 
-xtick.color: 555555
+lines.linewidth: 2.0
+lines.dash_joinstyle : miter        # miter|round|bevel
+lines.dash_capstyle : butt          # butt|round|projecting
+lines.solid_joinstyle : miter       # miter|round|bevel
+lines.solid_capstyle : projecting   # butt|round|projecting
+
+xtick.color: 212121
 xtick.direction: out
 
-ytick.color: 555555
+ytick.color: 212121
 ytick.direction: out
 
 grid.color: white
 grid.linestyle: --    # solid line
-
-figure.facecolor: white
-figure.edgecolor: 0.50
-figure.figsize: 20,5
+grid.linewidth: 0.1
+figure.facecolor: 607D8B
+figure.edgecolor: 0.250
+figure.figsize: 9,3

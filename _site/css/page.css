@@ -58,12 +58,13 @@ body{
     height:100%;
     vertical-align: bottom;
     display: inline-block;
+
 }
 
 #post-title{
     border-bottom: thin solid #B6B6B6;
-    font-size: 5vw
-
+    font-size: 5vw;
+    margin-bottom: 2%;
 }
 /*
     Define header section
@@ -91,3 +92,4 @@ a {
 p{
     text-indent: 10px;
 }
+
