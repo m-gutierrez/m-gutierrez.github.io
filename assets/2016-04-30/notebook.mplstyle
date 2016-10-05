@@ -27,13 +27,25 @@ axes.color_cycle: E24A33, 348ABD, 988ED5, 777777, FBC15E, 8EBA42, FFB5B8
 
 xtick.color: 555555
 xtick.direction: out
+xtick.major.width    : 1.5
+xtick.minor.width    : 1.0
+
 
 ytick.color: 555555
 ytick.direction: out
+ytick.major.width    : 1.5
+ytick.minor.width    : 1.0
+
 
 grid.color: white
 grid.linestyle: --    # solid line
+grid.linewidth: 0.5
 
 figure.facecolor: white
 figure.edgecolor: 0.50
-figure.figsize: 20,5
+figure.figsize: 10,5
+figure.dpi    : 10
+
+
+lines.markersize  : 8 
+lines.markeredgewidth  : 1.5

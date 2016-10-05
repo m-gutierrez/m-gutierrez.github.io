@@ -35,6 +35,7 @@ body{
 
 #sidebar_left{
     font-family: paltino,cambrida,arial;
+    position:fixed;
     color:#212121;
     background-color:#455A64;
     padding-left:3%;
@@ -46,11 +47,14 @@ body{
     font-size:1.5vw;
     margin:0;
     display: inline-block;
+    vertical-align: bottom;
+    overflow-y:scroll;
 
 }
 
 #main{
-
+    position: absolute;
+    left: 17%;
     color: #212121;
     padding-left:5%;
     padding-right:5%;
@@ -90,6 +94,5 @@ a {
 }
 
 p{
-    text-indent: 10px;
 }
 

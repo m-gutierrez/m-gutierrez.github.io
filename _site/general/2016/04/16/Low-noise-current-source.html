@@ -16,7 +16,7 @@
         }
       },
       tex2jax: {
-        inlineMath: [ ['$','$'],['\(', '\)']],
+        inlineMath: [ ['$','$']],
         processEscapes: true
       }
     });
@@ -29,24 +29,20 @@
 
   <!-- page content -->
   <body>
-
   <div id="sidebar_left">
     <!-- page header -->
     <header> 
       <h1>Blog</h1>
     </header>
-  
-
     
 
     <nav role="navigation">
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/thesis">projects</a></li>
-        <li><a href="/photos">photos</a></li>
-        <li><a href="/about">about</a></li>
+        <li><a href="/projects">projects</a></li>
       </ul>
     </nav></div>
+
 
     <div id="main">
       <div id="post-title">Low noise current source</div>
@@ -167,13 +163,20 @@ To improve this situation a temperature stabilized heat shield will be placed ar
 <p>Stabilization is done using a <a href="http://www.teamwavelength.com/products/product.php?part=54">wavelength electronics WHY5640</a>. Combined with a water-jetted aluminum shield and a peilter element.
 Both the temperature set point, and thermistor are located within the shield near the voltage reference.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end</code></pre></figure>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td><td class="code"><pre><span class="k">def</span> <span class="nf">show</span>
+  <span class="vi">@widget</span> <span class="o">=</span> <span class="no">Widget</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="ss">:id</span><span class="p">])</span>
+  <span class="n">respond_to</span> <span class="k">do</span> <span class="o">|</span><span class="nb">format</span><span class="o">|</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">html</span> <span class="c1"># show.html.erb</span>
+    <span class="nb">format</span><span class="p">.</span><span class="nf">json</span> <span class="p">{</span> <span class="n">render</span> <span class="ss">json: </span><span class="vi">@widget</span> <span class="p">}</span>
+  <span class="k">end</span>
+<span class="k">end</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 
 

@@ -16,7 +16,7 @@ axes.labelsize: large
 axes.labelcolor: black
 axes.axisbelow: True       # grid/ticks are below elements (eg lines, text)
 
-axes.color_cycle: E24A33, 348ABD, 988ED5, 777777, FBC15E, 8EBA42, FFB5B8
+axes.color_cycle: FFB5B8, 8EBA42, 988ED5, 777777, FBC15E, 348ABD, E24A33
                    # E24A33 : red
                    # 348ABD : blue
                    # 988ED5 : purple
@@ -42,4 +42,5 @@ grid.linestyle: --    # solid line
 grid.linewidth: 0.1
 figure.facecolor: 607D8B
 figure.edgecolor: 0.250
-figure.figsize: 8,3
+figure.dpi    : 80
+figure.figsize: 1,1
