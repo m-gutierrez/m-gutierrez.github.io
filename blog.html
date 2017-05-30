@@ -1,17 +1,36 @@
 ---
-layout: blog
-title: Blog
+layout: page
 ---
- 
-<ul class="entries">
-  {% for post in site.tags.blog %}
-  <li STYLE="margin:10px">
-    <a href="{{ post.url }}">
-	    <img src="{{ post.image }}" width="100" height="75" style="vertical-align: middle;"/>
-	    <span STYLE="font-size: 20pt; vertical-align: middle;" >
-		{{ post.date | date_to_string }}: {{ post.title }} 
-		</span>
-    </a> 
-  </li>
+
+{% for post in site.posts limit:10 %}
+  <h2 class="post-title">
+    <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
+      {{ post.title }}
+    </a>
+  </h2>
+
+  <div class="post-meta">
+  <div class="post-time">
+    <i class="fa fa-calendar"></i>
+    <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date_to_string }}</time>
+  </div>
+  <ul>
+    {% for tag in post.tags %}
+    <li><a href="{{site.baseurl | prepend:site.url}}/tag/{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+  <div class="post-descr">
+    <p>
+      {{ post.description }}
+    </p>
+  </div>
   {% endfor %}
-</ul>
+
+
+<div class="post-footer">
+  <div class="column-full">
+    <h3><a href="{{ '/archive.html' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></h3>
+  </div>
+</div>
