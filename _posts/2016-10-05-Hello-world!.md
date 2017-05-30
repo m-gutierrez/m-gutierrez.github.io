@@ -34,7 +34,7 @@ Here you can see the interesting portion of the experiment. Inside the vacuum ch
 <img src="{{image_link}}HOA2_Full.jpg" width="400px"/>
 </a>
 
-The chip consists of 185 patterned electrodes which are routed to 96 control voltages through the CPGA. The main region of interest for our work is the central linear region, which is 4.6mm long. Of this we only look at small sections of the whole chip at a time. This is due to the magnification needed to resolve individual ions. For instance, bellow is a view of the typical reigon of interest for the experiment, along with several ions trapped in this region.
+The chip consists of 185 patterned electrodes which are routed to 96 control voltages through the CPGA. The main region of interest for our work is the central linear region, which is 4.6mm long. Of this we only look at small sections of the whole chip at a time. This is due to the magnification needed to resolve individual ions. For instance, bellow is a view of the typical reigon of interest for the experiment, along with several ions trapped in this region. The trap becomes blurry and out of focus as we focus on the ions 60micron above the trap surface (0.002in above the trap)
 
 <span><a href="{{image_link}}HOA_Exp_view.png"> 
 <img src="{{image_link}}HOA_Exp_view.png" width="400px"/>
@@ -42,6 +42,6 @@ The chip consists of 185 patterned electrodes which are routed to 96 control vol
 <img src="{{image_link}}HOA2_ions.png" width="400px"/>
 </a> </span>
 
-These images form the experiment camera are shown in false color, the actual photos are black and white. The trap becomes blurry and out of focus as we focus on the ions 60micron above the trap (0.002in above the trap)
+These images form the experiment camera are shown in false color, the actual photos are black and white. 
 
 
