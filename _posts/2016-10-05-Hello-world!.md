@@ -44,4 +44,3 @@ The chip consists of 185 patterned electrodes which are routed to 96 control vol
 
 These images form the experiment camera are shown in false color, the actual photos are black and white, which is fine because we are only interested in one color of light, 422nm (purple-ish), which is the color the ions in the image are fluorescing. The image shows two groups of ions, the left most is a string 9 ions and the right group is a single ion. The ions are being laser cooled to a temperature of about 200 $\mu K$, at these temperature they form an orderly crystal which by tuning the trapping potential forms a string of ions with regular spacings. This is how we can tell the left-group is actually 9-ions and not just the 8-bright shown. 
 
-
