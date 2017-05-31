@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello world!
-image: /images/2016-10-05/HOA_OVEN.JPG
+image: /images/2016-10-05/HOA_OVEN_THUMB.JPG
 category: general
 tags: blog
 
