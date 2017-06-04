@@ -1,7 +1,10 @@
 gallery: 
   - image_path: /img/galleries/g01/ColoradoSpringsLakeTree.jpg
     image-caption: Manitou lake - Teller county, Colorado 
-    image-description: This is a tree overlooking Manitou lake in Teller county, Colorado. A family favorite spot that we often go to for bbq or just to get out of the house. I love the lighting and colors in the tree. The dark foreground and the tree leading up to the single cloud and moon in the sky. I don't like the random bits of neighboring tree peaking into the frame. 
+    image-description: This is a tree overlooking Manitou lake in Teller county, Colorado. A family favorite spot that we often go to for bbq or just to get out of the house. I love the lighting and colors in the tree. The dark foreground and the tree leading up to the single cloud and moon in the sky. I don't like the random bits of neighboring tree peaking into the frame.
+   - image_path: /img/galleries/g01/uCavityMIT.jpg
+    image-caption: micro Cavity experiment - Cambridge, Massachusetts
+    image-description: This was the first experiment I built at MIT. Taken shortly after the first bake to ultra-high vacuum. Unfortunately, I don't think we trapped during this attempt we observed voltage breakdown on the trapping device preventing us from successfully confining any ions. I like the personification of the chamber here, kind of ninja-like headband and the viewports make for a nice pair of eyes. 
   - image_path: /img/galleries/g01/Copenhagen_Ship.jpg
     image-caption: Boat - Copenhagen, Denmark
     image-description: Random boat we walked past when visiting Copenhagen. I believe this was near the royal palaces, not that it really matters. This day was surprisingly cold which made taking pictures a pretty low priority, unfortunately. I like the lens flare and the center frame in focus painter. 
@@ -23,6 +26,3 @@ gallery:
   - image_path: /img/galleries/g01/SkyMountainHike_oldguy.jpg
     image-caption: Himmelbjerget - Søhøjlandet, Denmark
     image-description: I'm not sure why I like this so much but I do. This was taken at Himmelbjerget 'Sky mountain' in Denmark, a whopping 482ft high hill with a small-medium sized tower on top of it. Probably mid-way through a physics? sponsored hike through the surrounding area. At the time I was a visiting student at Aarhus university working in an ion lab there. 
-  - image_path: /img/galleries/g01/uCavityMIT.jpg
-    image-caption: micro Cavity experiment - Cambridge, Massachusetts
-    image-description: This was the first experiment I built at MIT. Taken shortly after the first bake to ultra-high vacuum. Unfortunately, I don't think we trapped during this attempt we observed voltage breakdown on the trapping device preventing us from successfully confining any ions. I like the personification of the chamber here, kind of ninja-like headband and the viewports make for a nice pair of eyes.

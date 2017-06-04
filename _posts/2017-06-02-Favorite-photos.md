@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: Some favorite photos
-image: /images/2016-10-05/HOA_OVEN_THUMB.jpg
+image: /img/galleries/g01/ChessBoard_THUMB.jpg
 date: "2017-06-02"
 ---
 
