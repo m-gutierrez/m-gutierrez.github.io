@@ -1,0 +1,17 @@
+gallery: 
+  - image_name: HOA2_Full
+    image_path: /img/galleries/g00/HOA2_Full.jpg
+    image-caption: Sandia HOA V2.0 ion trap
+    image-description: Sandia national lab's high optical access surface electrode Paul trap. This is the device used for the majority of my thesis work. 
+  - image_name: HOA_OVEN
+    image_path: /img/galleries/g00/HOA_OVEN.jpg
+    image-caption: business end of Twins experiment
+    image-description: This is a view of the inside of our vacuum chamber, showing the installed HOA2 device along with the in-vacuum support structure. Featuring 100 electrical contacts from a vacuum feedthrough to the center cpga socket, a rear (not shown) mounted in-vacuum lens pair (f1=10mm - f2 =100mm) for imaging through the slot within the chip.
+  - image_name: HOA_Exp_view
+    image_path: /img/galleries/g00/HOA_Exp_view.png
+    image-caption: Experiment camera view 
+    image-description: Shown is the experiment camera's view of the installed trap. Specifically looking at the loading zone focused on the trap surface, where the oven fluxed is first ionized into the trap before moving ions into the center region for experiments. 
+  - image_name: HOA2_ions
+    image_path: /img/galleries/g00/HOA2_ions.png
+    image-caption: Experiment camera view ions
+    image-description: Experiment camera focused on ions loaded 60micron above the traps surface. The high numerical aperture used for these images leads to a very shallow depth of field resulting in an out-of-focus trap surface beneath the ions.

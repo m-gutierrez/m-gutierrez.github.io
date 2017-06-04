@@ -1,0 +1,29 @@
+{% if include.gal %}
+  {% assign gallery = site.data.[{{include.gal}}]["gallery"] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+<div class="gallery post-gallery">
+  {% for img in gallery %}
+  	{%if img.image_name == include.name %}
+	  <figure class="gallery-item">
+
+		<header class='gallery-icon'>
+
+		<a href="{{ site.url }}{{ site.baseurl }}{{ img.image_path }}" class="popup"  title="{{ img.image-caption }}" data-caption="{{ img.image-description }}">
+		<img src=" {{ site.url }}{{ site.baseurl }}{{ img.image_path | replace: '.','_post.' }}"></a>
+							
+		</header>	
+			
+	   <figcaption class='gallery-caption'>
+			<div class="entry-summary" id="{{ img.image-caption }}">
+					<h3>{{img.image-caption}}</h3>
+						<p>{{img.image-description}}</p>
+							</div>
+						</figcaption>
+					</figure>
+    {%else%}
+    {% endif %}
+  {% endfor %}
+</div>
