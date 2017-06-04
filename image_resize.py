@@ -37,11 +37,11 @@ elif args["operation"] == "resize":
 	print cmdr
 	call( cmdr)
 elif args["operation"] == "copyAndResize":
-	cmd2x = 'convert %s/*.jpg -resize 50%% -set filename:area %%t@2x %s/%%[filename:area].jpg'%(args["directory"],args["directory"])
+	cmd2x = 'convert %s/*.jpg -resize 30%% -set filename:area %%t_post %s/%%[filename:area].jpg'%(args["directory"],args["directory"])
 	cmd2x = cmd2x.split(' ')
 	print cmd2x
 	call( cmd2x)
-	cmd2x = 'convert %s/*.png -resize 50%% -set filename:area %%t@2x %s/%%[filename:area].png'%(args["directory"],args["directory"])
+	cmd2x = 'convert %s/*.png -resize 30%% -set filename:area %%t_post %s/%%[filename:area].png'%(args["directory"],args["directory"])
 	cmd2x = cmd2x.split(' ')
 	print cmd2x
 	call( cmd2x)
