@@ -11,5 +11,3 @@ date: "2017-06-02"
 
 
 These are some of my favorite photos that I've taken. 
-
-
