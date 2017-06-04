@@ -8,7 +8,7 @@ tags: blog
 ---
 {% assign image_link ="/images/2016-10-05/" %}
 
-<a href="{{image_link}}unikitty.gif"> 
+<a href="{{image_link}}unikitty.gif" class="popup"> 
 <img src="{{image_link}}unikitty.gif" width="400px"/>
 </a>
 
@@ -23,7 +23,7 @@ With that said, I'll probably forgo context in the majority of these posts and j
 
 I originally named this experiment 'twins' for 2 reasons. Firstly, it is a copy of the previous setup I built (X88) and, second, it was going to house two identical optical cavities. The drastic change I mentioned is that this setup is now absent two optical cavities. 
 
-<a href="{{image_link}}HOA_OVEN.JPG"> 
+<a href="{{image_link}}HOA_OVEN.JPG" class="popup"> 
 <img src="{{image_link}}HOA_OVEN.JPG" width="400px"/>
 </a>
 
