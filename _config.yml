@@ -1,6 +1,5 @@
 # Site settings
 title: MG
-
 highlighter: rouge
 markdown: kramdown
 kramdown:

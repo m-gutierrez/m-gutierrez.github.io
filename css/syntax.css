@@ -1,4 +1,4 @@
-.highlight{background: #607D8B; overflow:auto;width:auto;border:solid #FFFFFF;border-width:.1em .1em .1em .1em;padding:0em .5em;border-radius: 4px;margin:1%;}
+.highlight{background: #607D8B; word-wrap:break-word;border:solid #FFFFFF;border-width:.1em .1em .1em .1em;padding:0em .5em;border-radius: 4px;margin:1%;}
 .prompt.input_prompt{background: #607D8B; display: none;}
 .kn{color: #8EBA42; font-weight: bold;}
 .mi{color: #000000;}
@@ -72,7 +72,8 @@
 .highlight .il { color: #B6B6B6 } /* Literal.Number.Integer.Long */
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
-.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
+.highlight .lineno {background: #607D8B; width:95%; -webkit-user-select: none;-moz-user-select: none; -o-user-select: none;} 
+.highlight pre{white-space:pre-wrap;}
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
 
