@@ -39,11 +39,11 @@ for args in in_args["operation"]:
 		print cmdr
 		call( cmdr)
 	elif args == "copyAndResize":
-		ignorepost = 'find %s/*.jpg \! -name "*_post.jpg" | xargs -J %% '%in_args["directory"]
+		ignorepost = 'find ./img/galleries/g00/*.jpg  \! -name "*_post.jpg" | xargs -J % '
 		cmd2x = ignorepost+'convert %% -resize 30%% -set filename:area %%t_post %s/%%[filename:area].jpg'%(in_args["directory"])
 		print cmd2x
 		os.system(cmd2x)
-		ignorepost = 'find %s/*.png \! -name "*_post.png" | xargs -J %% '%in_args["directory"]
+		ignorepost = 'find ./img/galleries/g00/*.png  \! -name "*_post.png" | xargs -J % '
 		cmd2x = ignorepost+'convert %% -resize 30%% -set filename:area %%t_post %s/%%[filename:area].png'%(in_args["directory"])
 		print cmd2x
 		os.system(cmd2x)

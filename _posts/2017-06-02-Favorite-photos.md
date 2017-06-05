@@ -14,5 +14,5 @@ These are some of my favorite photos that I've taken. Mostly doing this to try a
 
 
 {% highlight python %}
-{% include image_resize.py %}
+{% include /python/image_resize.py %}
 {% endhighlight %}
