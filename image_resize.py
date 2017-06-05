@@ -4,7 +4,6 @@ import argparse
 import sys
 from subprocess import call
 import os
-cwd = os.getcwd()
 
 debug = False
 

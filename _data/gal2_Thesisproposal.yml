@@ -3,3 +3,19 @@ gallery:
     image_path: /img/galleries/g02/HOA_Oven_Cavity.jpg
     image-caption: Twins oven test  
     image-description: This was the first full install of the Twins experiment optical cavity with a working HOA2 trap. The optical cavity is formed by two mirrors on the small glass rectangles over-hanging the trap. A blue-streak can be seen during this oven test from fluorescing neutral strontium atoms.
+  - image_name: QuACK
+    image_path: /img/galleries/g02/QuACK.jpg
+    image-caption: QuACK control system 
+    image-description: Quanta's rack control system or Quantum ACQuisition system. Designed as a general purpose quantum control system, providing nanosecond timing resolution and synchronous updates for digital and analog RF and DC signal generation and acquisition.
+  - image_name: PCFdistr
+    image_path: /img/galleries/g02/PCFdistr.png
+    image-caption: Photonic crystal fiber distribution board
+    image-description: This is the setup we use for combining a wide-range of wavelengths into a common single-mode photonic crystal fiber. In this particular setup we combine 405,422,461,674,1033,1092nm. 
+  - image_name: TwinsExperiment
+    image_path: /img/galleries/g02/TwinsExperiment.jpg
+    image-caption: Twins experiment chamber
+    image-description: This is the Twins experiment chamber and supporting optics. 
+  - image_name: MatterInterferometer
+    image_path: /img/galleries/g02/MatterInterferometer.png
+    image-caption: Matter-wave interferometry
+    image-description: diagram of the protocol for matter-wave interferometry.
