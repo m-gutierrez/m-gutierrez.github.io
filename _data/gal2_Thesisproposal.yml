@@ -10,7 +10,7 @@ gallery:
   - image_name: PCFdistr
     image_path: /img/galleries/g02/PCFdistr.png
     image-caption: Photonic crystal fiber distribution board
-    image-description: This is the setup we use for combining a wide-range of wavelengths into a common single-mode photonic crystal fiber. In this particular setup we combine 405,422,461,674,1033,1092nm. 
+    image-description: This is the setup we use for combining a wide-range of wavelengths into a common single-mode photonic crystal fiber. In this particular setup we combine 405, 422, 461, 674, 1033, 1092nm. 
   - image_name: TwinsExperiment
     image_path: /img/galleries/g02/TwinsExperiment.jpg
     image-caption: Twins experiment chamber
@@ -19,3 +19,7 @@ gallery:
     image_path: /img/galleries/g02/MatterInterferometer.png
     image-caption: Matter-wave interferometry
     image-description: diagram of the protocol for matter-wave interferometry.
+  - image_name: MotionalGates
+    image_path: /img/galleries/g02/MotionalGates.png
+    image-caption: Ion manipulation
+    image-description: (a) experiment view with laser-beam geometry and ion positions shown. (b) Depiction of a ramsey-experiment where optical phase changes are implemented by nano-scale movement of each ion using control electrodes. (c) electronic state 4D5/2 population after the described ramsey sequence vs the distance the ion is moved.

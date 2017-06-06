@@ -3,6 +3,7 @@ layout: "post"
 title: Some favorite photos
 image: /img/galleries/g01/ChessBoard_THUMB.jpg
 date: "2017-06-02"
+tags: photography
 ---
 
 <!-- Gallery __-->			
