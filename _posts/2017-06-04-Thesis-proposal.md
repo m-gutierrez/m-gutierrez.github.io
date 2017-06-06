@@ -20,6 +20,10 @@ This thesis work progresses both quantum information processing and quantum sens
 
 {% include addimg.html gal="gal2_Thesisproposal" name="HOA_Oven_Cavity" %}
 
+As 
+
+
+
 ## vacuum systems
 {% include addimg.html gal="gal2_Thesisproposal" name="TwinsExperiment" %}
 
