@@ -2,7 +2,7 @@ gallery:
   - image_name: HOA_Oven_Cavity
     image_path: /img/galleries/g02/HOA_Oven_Cavity.jpg
     image-caption: Twins oven test  
-    image-description: This was the first full install of the Twins experiment optical cavity with a working HOA2 trap. The optical cavity is formed by two mirrors on the small glass rectangles over-hanging the trap. A blue-streak can be seen during this oven test from fluorescing neutral strontium atoms.
+    image-description: This was the first full install of the Twins experiment optical cavity with a working HOA2 trap. The optical cavity is formed by two mirrors on the small glass rectangles over-hanging the trap. Note - optical cavity not in final install. A blue-streak can be seen during this oven test from fluorescing neutral strontium atoms.
   - image_name: QuACK
     image_path: /img/galleries/g02/QuACK.jpg
     image-caption: QuACK control system 
