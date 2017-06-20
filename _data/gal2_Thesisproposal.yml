@@ -6,11 +6,11 @@ gallery:
   - image_name: QuACK
     image_path: /img/galleries/g02/QuACK.jpg
     image-caption: QuACK control system 
-    image-description: Quanta's rack control system or Quantum ACQuisition system. Designed as a general purpose quantum control system, providing nanosecond timing resolution and synchronous updates for digital and analog RF and DC signal generation and acquisition.
-  - image_name: PCFdistr
-    image_path: /img/galleries/g02/PCFdistr.png
+    image-description: Front view of the quanta rack system. Featuring high-speed high-bandwidth fpga controller with software ARM processor for experiment sequencing, high-quality digital synthesizers for DC-1 GHz drives, high-density high-precision arbitrary waveform generators, 15x digital inputs, 15x digital outputs.
+  - image_name: PCFBeamDistr
+    image_path: /img/galleries/g02/PCFBeamDistr.png
     image-caption: Photonic crystal fiber distribution board
-    image-description: This is the setup we use for combining a wide-range of wavelengths into a common single-mode photonic crystal fiber. In this particular setup we combine 405, 422, 461, 674, 1033, 1092nm. 
+    image-description: Beam routing for experiment lasers into a single PCF. All experiment wavelengths are routed through a endlessly single-mode polarization maintaining fiber with a 5 $\mu$m core. Each beam achieves a fiber-coupling efficiency of $>$50% through the use of a parabolic in-coupling mirror and telescoping lenses in each beam path.
   - image_name: TwinsExperiment
     image_path: /img/galleries/g02/TwinsExperiment.jpg
     image-caption: Twins experiment chamber
@@ -18,8 +18,12 @@ gallery:
   - image_name: MatterInterferometer
     image_path: /img/galleries/g02/MatterInterferometer.png
     image-caption: Matter-wave interferometry
-    image-description: diagram of the protocol for matter-wave interferometry.
+    image-description: dDepiction of the interferometry protocol steps 1-5. With steps 1 and 5 consisting of ramsey sequences mapping populations to/from phases on a super-position of spin-states (bottom frame). The top frame demonstrates the acquired phase produced by coherent displacements $\pm\gamma$ and $\alpha_F$ in steps 2-4 which are mapped to the spin-states (bottom frame) through the entangling operations.
   - image_name: MotionalGates
     image_path: /img/galleries/g02/MotionalGates.png
     image-caption: Ion manipulation
     image-description: (a) experiment view with laser-beam geometry and ion positions shown. (b) Depiction of a ramsey-experiment where optical phase changes are implemented by nano-scale movement of each ion using control electrodes. (c) electronic state 4D5/2 population after the described ramsey sequence vs the distance the ion is moved.
+  - image_name: PositionControlledGate
+    image_path: /img/galleries/g02/PositionControlledGate.png
+    image-caption: Position controlled quantum logic gates
+    image-description: a) Image of the surface trap indicating geometries of magnetic field, as well as Doppler, detection, and qubit beams. The two trapping zones of interest, Z1 and Z2, are labeled with ion fluorescence shown. b) Timing and space diagram for position controlled gate, ions are moved individually within global 674 nm beam to implement a unique zone-dependent qubit rotation. c/d) Results implementing an arbitrary rotation in each zone while performing one of three constant operations (identity, $\pi/4$ and $\pi/2$) in the other. Scanned contrast is 99.1% and residuals are within statistical uncertainty. Each target rotation is repeated 400 times and error bars represent quantum projection noise for this sampling. 
