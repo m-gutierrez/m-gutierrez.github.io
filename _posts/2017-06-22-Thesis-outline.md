@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thesis outline
-image: /img/galleries/g04/Mirrorpic_Thumb.jpg
+image: /img/galleries/g04/Mirrorpic_THUMB.jpg
 category: general
 tags: exp
 
