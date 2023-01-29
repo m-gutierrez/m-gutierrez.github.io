@@ -1,0 +1,36 @@
+{% if include.link %}
+  {% assign link = include.link %}
+{% else %}
+  {% assign link = page.gallery %}
+{% endif %}
+
+{% if include.desc %}
+	{% assign desc = include.desc %}
+{% else %}
+	{% assign desc = '' %}
+{% endif %}
+
+{% if include.caption %}
+	{% assign caption = include.caption %}
+{% else %}
+	{% assign caption = '' %}
+{% endif %}
+
+<div class="gallery post-gallery">
+	  <figure class="gallery-item">
+
+		<header class='gallery-icon'>
+
+		<a href="{{link}}" class="popup img-responsive"  title="{{caption}}" data-caption="{{desc}}">
+		<img src="{{link}}"></a>
+							
+		</header>	
+			
+	   <figcaption class='gallery-caption'>
+			<div class="entry-summary" id="{{caption}}">
+					<h3>{{caption}}}</h3>
+						<p>{{desc}}</p>
+							</div>
+						</figcaption>
+					</figure>
+</div>

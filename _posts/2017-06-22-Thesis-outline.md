@@ -11,6 +11,7 @@ tags: exp
 
 This thesis is organized in three parts. The first consists of an introduction to the theory and methods used in ion trap systems. This includes descriptions of the trapping principles used in surface-electrode Paul traps, level-structure for our ion of choice - strontium - with motional degrees of freedom, and description of the protocols used for quantum-state manipulation. The second part of this thesis contains descriptions of the theory and construction experimental hardware developed during the course of this work. The last part consists of the experiments performed throughout this thesis with an emphasis on the protocols developed for parallel quantum logic gates and matter-wave interferometry. 
 
+
 A rough layout of content will be as follows. 
 
 # Part I 

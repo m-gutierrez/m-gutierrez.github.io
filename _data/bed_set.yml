@@ -1,0 +1,5 @@
+gallery: 
+  - image_name: Mirrorpic
+    image_path: /img/galleries/g04/Mirrorpic.jpg
+    image-caption: Micro-mirror test setup
+    image-description: These are two ultra-high reflectivity mirrors for the wavelength bands 390-425nm and 800-860nm that we used for preparing a strongly-coupled cavity to single-strontium ions. You can see several blue-spots at the corner of the small piece of glass, this is an incident 422nm laser beam used to test the cavity formed by the two mirrors.
