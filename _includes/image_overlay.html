@@ -4,10 +4,10 @@
   {% assign link = page.gallery %}
 {% endif %}
 
-{% if include.desc %}
-	{% assign desc = include.desc %}
+{% if include.title %}
+	{% assign title = include.title %}
 {% else %}
-	{% assign desc = '' %}
+	{% assign title = '' %}
 {% endif %}
 
 {% if include.caption %}
@@ -21,15 +21,15 @@
 
 		<header class='gallery-icon'>
 
-		<a href="{{link}}" class="popup img-responsive"  title="{{caption}}" data-caption="{{desc}}">
+		<a href="{{link}}" class="popup img-responsive"  title="{{title}}: " data-caption="{{caption}}">
 		<img src="{{link}}"></a>
 							
 		</header>	
 			
 	   <figcaption class='gallery-caption'>
 			<div class="entry-summary" id="{{caption}}">
-					<h3>{{caption}}</h3>
-						<p>{{desc}}</p>
+					<h3>{{title}}</h3>
+						<p>{{caption}}</p>
 							</div>
 						</figcaption>
 					</figure>
