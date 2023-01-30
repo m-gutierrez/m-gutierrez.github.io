@@ -7,7 +7,7 @@ tags: photography
 ---
 
 <!-- Gallery __-->			
-{% include subgallery.html gal="gal1_favphotos" %}
+{% include subgallery1.html gal="gal1_favphotos" %}
 <!-- end of GALLERY __ -->
 
 
